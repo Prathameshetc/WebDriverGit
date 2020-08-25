@@ -15,6 +15,7 @@ public void setUp() {
 @Test
 public void doLogin() {
 	driver.get("http://www.google.co.in");
+	System.out.println("HHHH");
 }
 
 @AfterTest
